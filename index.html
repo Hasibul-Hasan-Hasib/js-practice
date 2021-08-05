@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section class="container my-5">
+        <h1 class="text-center fw-bold">Student Results</h1><br>
+        <div class="row">
+            <div class="col-4">
+                <label for="" class="form-label">Physics Number:</label>
+                <input type="text" class="form-control" id="pn" placeholder="0"><br>
+            </div>
+            <div class="col-4">
+                <label for="" class="form-label">Chemistry Number:</label>
+                <input type="text" class="form-control" id="cn" placeholder="0"><br>
+            </div>
+            <div class="col-4">
+                <label for="" class="form-label">Math Number:</label>
+                <input type="text" class="form-control" id="mn" placeholder="0"><br>
+            </div>
+            <div class="col-4">
+                <label for="" class="form-label">Biology Number:</label>
+                <input type="text" class="form-control" id="bn" placeholder="0"><br>
+            </div>
+            <div class="col-4">
+                <label for="" class="form-label">English Number:</label>
+                <input type="text" class="form-control" id="en" placeholder="0"><br>
+            </div>
+            <div class="col-4">
+                <label for="" class="form-label">Bangle Number:</label>
+                <input type="text" class="form-control" id="ban" placeholder="0"><br>
+            </div>
+            <button onclick="results()" class="btn btn-outline-primary col-3 mx-auto">
+                See Result
+            </button>
+            <h1 class="text-center fw-bold mt-5 mb-4">Grade & GPA</h1>
+            <div class="container-fluid">
+                <table class="table table-striped|sm|bordered|hover|inverse table-inverse table-responsive">
+                    <thead class="thead-inverse|thead-default">
+                        <tr>
+                            <th>Physics</th>
+                            <th>Chemistry</th>
+                            <th>Math</th>
+                            <th>Biology</th>
+                            <th>English</th>
+                            <th>Bangle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border" id="pg"></td>
+                            <td class="border" id="cg"></td>
+                            <td class="border" id="mg"></td>
+                            <td class="border" id="bg"></td>
+                            <td class="border" id="eg"></td>
+                            <td class="border" id="bag"></td>
+                        </tr>
+                        <tr>
+                            <td class="border" id="pp"></td>
+                            <td class="border" id="cp"></td>
+                            <td class="border" id="mp"></td>
+                            <td class="border" id="bp"></td>
+                            <td class="border" id="ep"></td>
+                            <td class="border" id="bap"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    </section>
+
+    <script src="/practice-js/grade.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
