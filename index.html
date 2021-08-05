@@ -14,7 +14,7 @@
 
     <section class="container my-5">
         <h1 class="text-center fw-bold">Student Results</h1><br>
-        <div class="row">
+        <div class="row mx-auto">
             <div class="col-md-6 col-lg-4">
                 <label for="" class="form-label">Physics Number:</label>
                 <input type="text" class="form-control" id="pn" placeholder="0"><br>
@@ -42,39 +42,40 @@
             <button onclick="results()" class="btn btn-outline-primary col-3 mx-auto">
                 See Result
             </button>
-            <h1 class="text-center fw-bold mt-5 mb-4">Grade & GPA</h1>
-            <div class="container">
-                <table class="table table-striped|sm|bordered|hover|inverse table-inverse table-responsive">
-                    <thead class="thead-inverse|thead-default">
-                        <tr>
-                            <th>Physics</th>
-                            <th>Chemistry</th>
-                            <th>Math</th>
-                            <th>Biology</th>
-                            <th>English</th>
-                            <th>Bangle</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="border" id="pg"></td>
-                            <td class="border" id="cg"></td>
-                            <td class="border" id="mg"></td>
-                            <td class="border" id="bg"></td>
-                            <td class="border" id="eg"></td>
-                            <td class="border" id="bag"></td>
-                        </tr>
-                        <tr>
-                            <td class="border" id="pp"></td>
-                            <td class="border" id="cp"></td>
-                            <td class="border" id="mp"></td>
-                            <td class="border" id="bp"></td>
-                            <td class="border" id="ep"></td>
-                            <td class="border" id="bap"></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+        </div>
+    </section>
+    <section class="container my-5 mx-auto">
+        <h1 class="text-center fw-bold mt-5 mb-4">Grade & GPA</h1>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Physics</th>
+                    <th>Chemistry</th>
+                    <th>Math</th>
+                    <th>Biology</th>
+                    <th>English</th>
+                    <th>Bangle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="border" id="pg"></td>
+                    <td class="border" id="cg"></td>
+                    <td class="border" id="mg"></td>
+                    <td class="border" id="bg"></td>
+                    <td class="border" id="eg"></td>
+                    <td class="border" id="bag"></td>
+                </tr>
+                <tr>
+                    <td class="border" id="pp"></td>
+                    <td class="border" id="cp"></td>
+                    <td class="border" id="mp"></td>
+                    <td class="border" id="bp"></td>
+                    <td class="border" id="ep"></td>
+                    <td class="border" id="bap"></td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 
     <script src="js/bundle.js"></script>
